@@ -764,12 +764,16 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cta
+# Cta / Defesa Civil
 --------------------------------------------------------------*/
+
 .cta {
   background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/BGmaiorVakinha.jpg") fixed center center;
   background-size: cover;
   padding: 60px 0;
+}
+.defesa-civil{
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/portfolio/resg-1.webp") fixed center center;
 }
 
 .cta h3 {
