@@ -768,12 +768,17 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/BGmaiorVakinha.jpg") fixed center center;
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/vakinha-maior.png") fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 .defesa-civil{
   background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/portfolio/resg-1.webp") fixed center center;
+}
+.voaarazoes{
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/voaarazoes.png") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
 }
 
 .cta h3 {
@@ -804,7 +809,26 @@ section {
   background: #1bbca3;
   border: 2px solid #1bbca3;
 }
+.cta-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  border: 2px solid #1bbca3;
+  color: #fff;
+  background: #1bbca3;
+}
 
+.cta-btn:hover {
+  background: #fff;
+  border: 2px solid #1bbca3;
+
+}
 /*--------------------------------------------------------------
 # More Services
 --------------------------------------------------------------*/
