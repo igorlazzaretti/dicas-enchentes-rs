@@ -977,10 +977,13 @@ section {
 /*--------------------------------------------------------------
 # Our Portfolio
 --------------------------------------------------------------*/
+
 .img-port{
   width: 400px;
   height: 330px;
+  object-fit: cover;
 }
+
 .portfolio .portfolio-item {
   margin-bottom: 30px;
 }
@@ -1031,7 +1034,6 @@ section {
 
 .correios img{
   height: clamp(344px, 50vw, 500px);
-  
   }
 /*--------------------------------------------------------------
 # Portfolio Details
