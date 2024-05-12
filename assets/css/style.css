@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #334240;
 }
 
@@ -30,7 +30,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -89,7 +89,7 @@ h6 {
 #header .logo h1 a:hover {
   color: #425451;
   text-decoration: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
 
@@ -131,7 +131,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 13px;
   font-weight: 500;
   color: #637f7b;
@@ -151,7 +151,7 @@ h6 {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
   color: #1bbca3;
 }
 
@@ -202,11 +202,11 @@ h6 {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
   color: #1bbca3;
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
   opacity: 1;
   top: 100%;
   visibility: visible;
@@ -218,7 +218,7 @@ h6 {
   visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
   opacity: 1;
   top: 0;
   left: 100%;
@@ -230,7 +230,7 @@ h6 {
     left: -90%;
   }
 
-  .navbar .dropdown .dropdown:hover>ul {
+  .navbar .dropdown .dropdown:hover > ul {
     left: -100%;
   }
 }
@@ -301,7 +301,7 @@ h6 {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
   color: #1bbca3;
 }
 
@@ -336,11 +336,11 @@ h6 {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
   color: #1bbca3;
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
 
@@ -364,7 +364,7 @@ h6 {
 }
 
 #hero .carousel-item::before {
-  content: "";
+  content: '';
   background-color: rgba(21, 27, 26, 0.7);
   position: absolute;
   height: 100vh;
@@ -455,7 +455,7 @@ h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -546,15 +546,15 @@ section {
   font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
   padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
   display: inline-block;
   padding-right: 10px;
   color: #6c757d;
-  content: "/";
+  content: '/';
 }
 
 @media (max-width: 768px) {
@@ -578,7 +578,7 @@ section {
   font-weight: 500;
   font-size: 24px;
   color: #58716d;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .about .content ul {
@@ -612,7 +612,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: #58716d;
 }
 
@@ -662,7 +662,7 @@ section {
 .counts .count-box p {
   padding: 30px 0 0 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
 }
 
@@ -672,7 +672,7 @@ section {
   margin-top: 20px;
   color: #7c9995;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -695,7 +695,7 @@ section {
 }
 
 .services .icon-box::before {
-  content: "";
+  content: '';
   position: absolute;
   background: #aff4e9;
   right: -60px;
@@ -768,15 +768,18 @@ section {
 --------------------------------------------------------------*/
 
 .cta {
-  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/vakinha-maior.png") fixed center center;
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)),
+    url('../img/vakinha-maior.png') fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
-.defesa-civil{
-  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/portfolio/resg-1.webp") fixed center center;
+.defesa-civil {
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)),
+    url('../img/portfolio/resg-1.webp') fixed center center;
 }
-.voaarazoes{
-  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/voaarazoes.png") fixed center center;
+.voaarazoes {
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)),
+    url('../img/voaarazoes.png') fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
@@ -792,7 +795,7 @@ section {
 }
 
 .cta .cta-btn {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -810,7 +813,7 @@ section {
   border: 2px solid #1bbca3;
 }
 .cta-btn {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -827,7 +830,6 @@ section {
 .cta-btn:hover {
   background: #fff;
   border: 2px solid #1bbca3;
-
 }
 /*--------------------------------------------------------------
 # More Services
@@ -907,7 +909,7 @@ section {
   list-style: none;
 }
 
-.info-box .accordion-list li+li {
+.info-box .accordion-list li + li {
   margin-top: 15px;
 }
 
@@ -920,7 +922,7 @@ section {
 .info-box .accordion-list a {
   display: block;
   position: relative;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 500;
@@ -974,7 +976,6 @@ section {
 }
 
 @media (max-width: 1024px) {
-
   .info-box .content,
   .info-box .accordion-list {
     padding-left: 0;
@@ -1002,7 +1003,7 @@ section {
 # Our Portfolio
 --------------------------------------------------------------*/
 
-.img-port{
+.img-port {
   width: 400px;
   height: 330px;
   object-fit: cover;
@@ -1055,10 +1056,12 @@ section {
   z-index: 1;
 }
 
-
-.correios img{
+.correios img {
   height: clamp(344px, 50vw, 500px);
-  }
+}
+.fgts img {
+  height: clamp(344px, 30vw, 500px);
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1075,7 +1078,10 @@ section {
   position: relative;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
@@ -1083,7 +1089,10 @@ section {
   border: 1px solid #1bbca3;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-details
+  .portfolio-details-slider
+  .swiper-pagination
+  .swiper-pagination-bullet-active {
   background-color: #1bbca3;
 }
 
@@ -1106,7 +1115,7 @@ section {
   font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
   margin-top: 10px;
 }
 
@@ -1130,7 +1139,6 @@ section {
 .team {
   background: #fff;
   padding: 60px 0;
-
 }
 
 .team .member {
@@ -1139,11 +1147,9 @@ section {
   background: #343a40;
   position: relative;
   overflow: hidden;
-  
 }
-.member img{
+.member img {
   width: 400px;
-  
 }
 
 .team .member .member-info {
@@ -1205,7 +1211,12 @@ section {
 }
 
 .team .member:hover .member-info {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.9) 0%, rgba(0, 0, 0, 0.8) 20%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.9) 0%,
+    rgba(0, 0, 0, 0.8) 20%,
+    rgba(0, 212, 255, 0) 100%
+  );
   opacity: 1;
   transition: 0.4s;
 }
@@ -1219,20 +1230,20 @@ section {
   bottom: 0;
   transition: bottom ease-in-out 0.4s;
 }
-.bi{
-  color:#aff4e9
+.bi {
+  color: #aff4e9;
 }
 
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-.team{
+.team {
   background-color: #334240;
   text-align: center;
   align-items: center;
   justify-content: center;
 }
-.row{
+.row {
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -1241,7 +1252,6 @@ section {
   text-align: center;
   padding-top: 30px;
 }
-.obrigado{
+.obrigado {
   color: #e6eceb;
 }
-
