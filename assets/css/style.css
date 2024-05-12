@@ -1061,7 +1061,7 @@ section {
   height: clamp(344px, 50vw, 500px);
 }
 .fgts img {
-  height: clamp(344px, 30vw, 500px);
+  height: clamp(190px, 25vw, 500px);
 }
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -1255,4 +1255,12 @@ section {
 }
 .obrigado {
   color: #e6eceb;
+}
+
+
+#iframe-youtube-mwinfo{
+
+  width: clamp(100px,70vw,500px);
+  height: clamp(100px,46vh,600px);
+
 }
