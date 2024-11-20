@@ -7,13 +7,15 @@ const audio = document.querySelector('#nature-sound');
 
 let currentSlide = 0;
 let isPlaying = false;
-
+mudarBackground();
 function updateSlides() {
     slides.forEach(slide => slide.classList.remove('active'));
     dots.forEach(dot => dot.classList.remove('active'));
 
     slides[currentSlide].classList.add('active');
     dots[currentSlide].classList.add('active');
+    // Chamar a função para gerar a imagem inicial
+    mudarBackground();
 }
 
 function nextSlide() {
@@ -50,5 +52,33 @@ audioControl.addEventListener('click', () => {
     isPlaying = !isPlaying;
 });
 
-// Auto-advance slides every 9 seconds
-setInterval(nextSlide, 9000);
+// Auto-advance slides every 20 seconds
+setInterval(nextSlide, 20000);
+
+//
+// Background Random
+function mudarBackground() {
+    // Array com as URLs das imagens
+    var imagens = [
+    "url('./assets/background-img/img2.jpg')",
+    "url('./assets/background-img/img3.jpg')",
+    "url('./assets/background-img/img4.jpg')",
+    "url('./assets/background-img/img5.jpg')",
+    ];
+
+    // Gerar um número aleatório entre 0 e 4
+    var indiceAleatorio = Math.floor(Math.random() * imagens.length);
+
+    // Selecionar a imagem aleatória do array
+    var imagemAleatoria = imagens[indiceAleatorio];
+
+    // Selecionar a div com a classe "slide"
+    var slide = document.querySelector(".slide");
+    var slidea = document.querySelector(".active");
+
+    // Aplicar a imagem como background da div
+    slide.style.background = imagemAleatoria;
+    slidea.style.background = imagemAleatoria;
+    slidea.style.backgroundPosition = "center";
+    slidea.style.backgroundSize = "cover";
+}
